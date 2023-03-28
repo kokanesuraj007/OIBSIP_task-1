@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  .calculator {
+    min-height: 100vh;
+    background: linear-gradient(to right bottom, #376c82, #214a58, #0f2027);
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+  }
+  .box {
+    width: 420px;
+    height: 580px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.849);
+    border-radius: 23px;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .heading {
+    position: relative;
+    left: 110px;
+    padding-top: 30px;
+    font-size: 28px;
+  }
+  
+  .input_box input[type="text"] {
+    position: relative;
+    left: 28px;
+    width: 350px;
+    height: 30px;
+    margin-top: 30px;
+    border: 3px solid black;
+    font-size: 30px;
+    outline: none;
+    background: white;
+    color: black;
+  }
+  
+  .first_row {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding-top: 30px;
+    left: 10px;
+  }
+  
+  .first_row button {
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    justify-content: center;
+    font-size: 30px;
+  }
+
+  #backspace{
+    background-color: blue;
+  }
+  #backspace:hover{
+    box-shadow: 0 0 15px blue;
+  }
+
+  #cancel{
+    background-color: red;
+  }
+
+  #cancel:hover{
+    box-shadow: 0 0 15px red;
+  }
+  .percentage{
+    background: rgb(139, 139, 228) !important;
+  }
+  .percentage:hover{
+    box-shadow: 0 0 15px blue;
+  }
+  .div{
+    background: rgb(139, 139, 228) !important;
+  }
+
+  .div:hover{
+    box-shadow: 0 0 15px blue;
+  }
+
+  .row {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding-top: 30px;
+    left: 10px;
+  }
+  
+  .row button {
+    display: flex;
+    flex-direction: column;
+    background: lightyellow;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    justify-content: center;
+  }
+  
+  .row button:hover {
+    box-shadow: 0 0 15px lime;
+  }
+  
+  .green {
+    background: green !important;
+    color: white;
+    width: 145px !important;
+    border-radius: 5% !important;
+  }
+  
+  .green:hover {
+    box-shadow: 0 0 15px black !important;
+  }
+  
+  .blue {
+    background: rgb(139, 139, 228) !important;
+    font-size: 30px !important;
+  }
+  
+  .blue:hover {
+    box-shadow: 0 0 15px rgb(0, 81, 255) !important;
+  }
+  

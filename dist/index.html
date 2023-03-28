@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="box" id="box">
+            <div class="heading">
+                <h2>Calculator</h2>
+            </div>
+            <div class="input_box">
+                <input type="text" name="InputBox" id="InputBox" disabled />
+            </div>
+            <div class="button_section">
+                <div class="first_row">
+                    <button id="backspace" onclick="backs();">&larr;</button>
+                    <button id="cancel" onclick="cls();">C</button>
+                    <button id="%" class="percentage" onclick="enter(this.id);">%</button>
+                    <button id="/" class="div" onclick="enter(this.id);">/</button>
+                </div>
+                <div class="row">
+                    <button id="7" onclick="enter(this.id);">7</button>
+                    <button id="8" onclick="enter(this.id);">8</button>
+                    <button id="9" onclick="enter(this.id);">9</button>
+                    <button id="*" class="blue" onclick="enter(this.id);">X</button>
+                </div>
+                <div class="row">
+                    <button id="4" onclick="enter(this.id);">4</button>
+                    <button id="5" onclick="enter(this.id);">5</button>
+                    <button id="6" onclick="enter(this.id);">6</button>
+                    <button id="-" class="blue" onclick="enter(this.id);">-</button>
+                </div>
+                <div class="row">
+                    <button id="1" onclick="enter(this.id);">1</button>
+                    <button id="2" onclick="enter(this.id);">2</button>
+                    <button id="3" onclick="enter(this.id);">3</button>
+                    <button id="+" class="blue" onclick="enter(this.id);">+</button>
+                </div>
+                <div class="row">
+                    <button id="0" onclick="enter(this.id);">0</button>
+                    <button id="." onclick="enter(this.id);">.</button>
+                    <button id="equals" class="green" onclick="ans();">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
